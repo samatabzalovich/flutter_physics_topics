@@ -1,0 +1,32 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_widget_from_html: ^0.14.11
+  hive_flutter: ^1.1.0
+  quickalert: ^1.1.0
+  syncfusion_flutter_pdfviewer: ^24.2.8
+  youtube_player_iframe: ^5.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+  fonts:
+    - family: Times New Roman
+      fonts:
+        - asset: assets/fonts/timesnewromanpsmt.ttf
+
